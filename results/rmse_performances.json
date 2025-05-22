@@ -1,0 +1,7 @@
+{
+    "LinearRegression": 117.76849932506165,
+    "Ridge": 117.76847534702546,
+    "Lasso": 117.76821765462698,
+    "RandomForestRegressor": 109.76261412034272,
+    "GradientBoostingRegressor": 109.50144784555447
+}
