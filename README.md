@@ -1,4 +1,6 @@
 # Price prediction of New York City's AirBnB
+![Project architecture](figures/project_architecture.jpg)
+
 This project present the price prediction of New York City's Air Bnb using Scikit Learn. The main libraries used in this project are `scikit learn`, `pandas` and `matplotlib`. The datas was found on [Kaggle](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data) and a notebook detailing the project is available at `notebooks/price_prediction_NYC_AirBnB.ipynb`.
 
 ### Steps of the project:
