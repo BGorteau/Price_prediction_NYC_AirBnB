@@ -1,4 +1,4 @@
-# Price_prediction_NYC_AirBnB
+# Price prediction of New York City's AirBnB
 This project present the price prediction of New York City's Air Bnb using Scikit Learn. The main libraries used in this project are `scikit learn`, `pandas` and `matplotlib`. The datas was found on [Kaggle](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data) and a notebook detailing the project is available at `notebooks/price_prediction_NYC_AirBnB.ipynb`.
 
 ### Steps of the project:
@@ -37,14 +37,12 @@ Here are the models selected and whose performances will be compared.
 
 Once we have the RMSEs of the different models, we can compare them and then choose the best model.
 
-| Model                      | Score           |
+| Model                      | RMSE            |
 |----------------------------|-----------------|
-| LinearRegression           | 117.7685        |
-| Ridge                      | 117.7685        |
-| Lasso                      | 117.7682        |
-| RandomForestRegressor      | 109.7626        |
-| GradientBoostingRegressor  | 109.5014        |
-
-![Compare models](figures/rmse_comparison.jpg)
+| `LinearRegression`         | 117.7685        |
+| `Ridge`                    | 117.7685        |
+| `Lasso`                    | 117.7682        |
+| `RandomForestRegressor `   | 109.7626        |
+| `GradientBoostingRegressor`| 109.5014        |
 
 When we look at the model, we can see that the three linear models have a veey similar score. In contrast, the Random Forest and Gradient Boosting models have better scores with a slight preference for the Gradient Boosting model.
